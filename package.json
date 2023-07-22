@@ -2,6 +2,7 @@
   "name": "melonlord",
   "displayName": "MelonLord",
   "description": "MelonLord",
+  "publisher": "MelonLord",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
@@ -9,6 +10,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Giridharaprasath/melonlord"
+  },
   "contributes": {
     "themes": [
       {
