@@ -688,7 +688,8 @@
 		{
 			"scope": [
 				"entity.name.type",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"entity.name.scope-resolution",
 			],
 			"settings": {
 				"foreground": "#4EC9B0",
@@ -717,6 +718,17 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#B267E6"
+			}
+		},
+		{
+			"scope": [
+				"meta.function",
+				"meta.block.cpp",
+				"meta.body.class.cpp"
+			],
+			"settings": {
+				"foreground": "#9CDCFE",
+				"fontStyle": "bold"
 			}
 		}
 	]
